@@ -1,0 +1,183 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  font-size: 12px; }
+
+fieldset, img {
+  border: none; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+section {
+  width: 10rem;
+  height: 15rem;
+  background: #eee;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  height: 0.64063rem; }
+
+header img {
+  width: 10rem;
+  height: 100%; }
+
+.cart {
+  width: 100%;
+  height: 1.35938rem;
+  background: #ad1b1b;
+  border-top: 0.03125rem solid #636363;
+  position: relative; }
+
+.cart p {
+  width: 100%;
+  height: 1.35938rem;
+  background: #ad1b1b;
+  font-size: 0.53125rem;
+  color: #fff;
+  line-height: 1.35938rem;
+  text-align: center; }
+
+.cart .car img {
+  width: 1.65625rem;
+  height: 0.875rem;
+  display: inline-block;
+  margin-top: 0.15625rem; }
+
+.cart .car {
+  display: inline-block;
+  position: absolute;
+  line-height: 0.8125rem;
+  text-align: center;
+  right: 0.32813rem;
+  top: 0.125rem;
+  font-size: 0.40625rem;
+  text-decoration: none; }
+
+.faction img {
+  width: 0.5625rem;
+  height: 0.82813rem; }
+
+.faction {
+  display: inline-block;
+  position: absolute;
+  width: 0.5625rem;
+  height: 0.82813rem;
+  top: 0.3125rem;
+  left: 0.5rem; }
+
+.main {
+  width: 10rem;
+  height: 11.48438rem;
+  background: aqua;
+  border-top: 2px solid #9a9fa5; }
+
+.main .show {
+  width: 100%;
+  height: 5.84375rem;
+  background: dodgerblue; }
+
+.show img {
+  float: left;
+  border: none; }
+
+.show img:nth-of-type(1) {
+  width: 2.71875rem;
+  height: 5.84375rem; }
+
+.show img:nth-of-type(2) {
+  width: 4.5625rem;
+  height: 5.84375rem; }
+
+.show img:nth-of-type(3) {
+  width: 2.71875rem;
+  height: 5.84375rem; }
+
+.main .good {
+  width: 10rem;
+  height: 4.21875rem;
+  background: #f3eff0;
+  position: relative; }
+
+.main .good h2 {
+  line-height: 0.875rem;
+  font-size: 0.46875rem;
+  margin-left: 0.42188rem; }
+
+.main .good .padding47 {
+  padding-top: 0.73438rem; }
+
+.main .good s {
+  margin-left: 0.3125rem; }
+
+.control {
+  width: 1.51563rem;
+  height: 0.625rem;
+  position: absolute;
+  right: 4.26563rem;
+  top: 0.21875rem;
+  border-radius: 0.3125rem;
+  background: #bcbcbc; }
+
+.control li {
+  float: left;
+  width: 0.15625rem;
+  height: 0.15625rem;
+  border-radius: 0.1875rem;
+  margin: 0.25rem 0rem 0rem 0.25rem;
+  background: #eee;
+  display: inline-block; }
+
+.control li.active {
+  background: gray; }
+
+.details {
+  width: 100%;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  position: relative;
+  background: #fff; }
+
+.details img {
+  width: 0.53125rem;
+  height: 0.53125rem;
+  position: absolute;
+  left: 0.39063rem;
+  top: 0.48438rem; }
+
+.details p {
+  font-size: 0.46875rem;
+  text-indent: 1.35938rem; }
+
+.details p a {
+  margin-right: 0.5rem;
+  color: #000;
+  font-weight: bolder;
+  float: right;
+  text-decoration: none; }
+
+footer {
+  width: 100%;
+  height: 1.5625rem;
+  background: #a3a3a3; }
+
+footer a {
+  text-decoration: none;
+  width: 6.79688rem;
+  height: 1.09375rem;
+  border-radius: 0.3125rem;
+  font-size: 0.46875rem;
+  background: #b72120;
+  display: inline-block;
+  line-height: 1.09375rem;
+  text-align: center;
+  color: #fff;
+  margin: 0.15625rem 0rem 0rem 1.59375rem; }
+
+/*# sourceMappingURL=index.css.map */

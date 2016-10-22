@@ -1,0 +1,94 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0;  font-family:"微软雅黑"; font-size:12px;}
+fieldset, img { border:none; }
+ul, ol { list-style:none; }
+a {text-decoration:none; }
+$font-size:64;
+@function px2Rem($px){
+  @return  $px/$font-size +rem;
+}
+//总宽高
+section{
+  width: px2Rem(640);
+  height:  px2Rem(960);
+  background: #eee;
+  margin: 0 auto;
+}
+//头部
+header{
+  width:100%;
+  height:  px2Rem(41);
+}
+header img{
+  width:px2Rem(640);
+  height:100%;
+}
+.cart{
+  width: 100%;
+  height:  px2Rem(87);
+  background:#ad1b1b;
+  border-top: px2Rem(2)solid #636363;
+  position: relative;
+}
+.cart p{
+  width:100%;
+  height: px2Rem(87);
+  background:#ad1b1b;
+  font-size: px2Rem(34);
+  color:#fff;
+  line-height:  px2Rem(87);
+  text-align: center;
+}
+.cart .car img{
+  width:px2Rem(106);
+  height:px2Rem(56);
+  display: inline-block;
+  margin-top:  px2Rem(10);
+}
+.cart .car{
+  display: inline-block;
+  position: absolute;
+  line-height:  px2Rem(52);
+  text-align: center;
+  right: px2Rem(21);
+  top: px2Rem(8);
+  font-size: px2Rem(26);
+  text-decoration: none;
+}
+.faction img{
+  width: px2Rem(36);
+  height:px2Rem(53);
+}
+
+.faction{
+  display: inline-block;
+  position: absolute;
+  width:px2Rem(36);
+  height:px2Rem(53);
+  top:px2Rem(20);
+  left:px2Rem(32);
+}
+.main{
+  width: 100%;
+  height: px2Rem(833);
+}
+.show{
+  width: 100%;
+  height:px2Rem(427);
+  border-top:px2Rem(2) solid gray;
+}
+.show img{
+  margin: px2Rem(0) px2Rem(30);
+  width:px2Rem(578);
+  height:px2Rem(427);
+}
+.content{
+  width:px2Rem(578);
+  height: px2Rem(406);
+  padding:px2Rem(0) px2Rem(30);
+}
+.content h2{
+  font-size:px2Rem(24);
+  line-height: px2Rem(34);
+  color:#8a8a8a;
+}

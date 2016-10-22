@@ -1,0 +1,142 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  font-size: 12px; }
+
+fieldset, img {
+  border: none; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+section {
+  width: 10rem;
+  height: 15rem;
+  background: red;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  height: 0.64063rem; }
+
+header img {
+  width: 10rem;
+  height: 100%; }
+
+.cart {
+  width: 100%;
+  height: 1.35938rem;
+  background: #ad1b1b;
+  border-top: 0.03125rem solid #636363;
+  position: relative; }
+
+.cart p {
+  width: 100%;
+  height: 1.35938rem;
+  background: #ad1b1b;
+  font-size: 0.53125rem;
+  color: #fff;
+  line-height: 1.35938rem;
+  text-align: center; }
+
+.cart a img {
+  width: 1.65625rem;
+  height: 0.875rem;
+  display: inline-block;
+  margin-top: 0.15625rem; }
+
+.cart a {
+  display: inline-block;
+  position: absolute;
+  line-height: 0.8125rem;
+  text-align: center;
+  right: 0.32813rem;
+  top: 0.125rem;
+  font-size: 0.40625rem;
+  text-decoration: none; }
+
+.good {
+  width: 100%;
+  height: 0.92188rem;
+  background: #747474;
+  text-align: center;
+  line-height: 0.92188rem; }
+
+.good img {
+  width: 10rem;
+  height: 0.92188rem; }
+
+.main {
+  width: 100%;
+  height: 10.60938rem;
+  overflow: hidden;
+  background: #f3f4f6; }
+
+.main dl {
+  width: 3.85938rem;
+  height: 4.6875rem;
+  float: left;
+  margin: 0.53125rem;
+  text-align: center; }
+
+.main dl img {
+  width: 3.8125rem;
+  height: 3.8125rem;
+  border: 1px solid gray;
+  -webkit-box-shadow: 0 0 0.01563rem 0.01563rem grey;
+  -moz-box-shadow: 0 0 0.01563rem 0.01563rem grey;
+  box-shadow: 0 0 0.01563rem 0.01563rem grey; }
+
+.main dl dt {
+  width: 3.8125rem;
+  height: 3.8125rem; }
+
+.main dl dd {
+  font-size: 0.3125rem;
+  line-height: 0.75rem; }
+
+.main dl dd em {
+  margin: 0 0.78125rem 0 0.3125rem;
+  color: #d41012; }
+
+.main dl dd s {
+  color: #868686; }
+
+footer {
+  width: 10rem;
+  height: 1.5625rem;
+  background: #484850; }
+
+footer dl {
+  width: 2rem;
+  height: 1.5625rem;
+  text-align: center;
+  float: left; }
+
+footer dl dd {
+  font-size: 0.34375rem;
+  color: #fefffa; }
+
+footer dl dt img {
+  width: 0.75rem;
+  height: 0.75rem; }
+
+footer dl .d2 {
+  margin-top: 0.1875rem; }
+
+footer dl dt {
+  margin-top: 0.15625rem; }
+
+footer dl .d1 {
+  margin-top: 0.04688rem; }
+
+footer dl:hover {
+  border-top: 0.09375rem solid #e4366b;
+  cursor: pointer; }
+
+/*# sourceMappingURL=index.css.map */
